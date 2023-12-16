@@ -12,7 +12,7 @@ namespace StudentTeacherProject
 
         public override void ShowName()
         {
-            Console.WriteLine(Name + Family + Score);
+            Console.WriteLine(Name + "Arman" + Family + "Khalili" + Score + 10);
         }
     }
 }
