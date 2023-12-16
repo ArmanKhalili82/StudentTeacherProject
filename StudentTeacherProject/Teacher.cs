@@ -12,7 +12,7 @@ namespace StudentTeacherProject
 
         public override void ShowName()
         {
-            base.ShowName();
+            Console.WriteLine("Name=" + Name + "Family=" + Family + "Course=" + Course );
         }
     }
 }
