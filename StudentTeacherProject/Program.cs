@@ -5,6 +5,8 @@ var command = Console.ReadLine();
 
 while (true)
 {
+    List<Student> studentadd = new List<Student>();
+
     if (command == "Student")
     {
         Console.WriteLine("Enter Your Student:");
@@ -12,9 +14,8 @@ while (true)
         Console.WriteLine("Enter Your Family");
         var family = Console.ReadLine();
         Console.WriteLine("Enter Your Score");
-        var studentscore = int.Parse(Console.ReadLine()); 
-        List<Student> studentadd = new List<Student>();
-        var st = studentadd.Where(s => s.Name == student).FirstOrDefault();
+        var studentscore = int.Parse(Console.ReadLine());
+        studentadd.Add(student);
     }
 }
 
