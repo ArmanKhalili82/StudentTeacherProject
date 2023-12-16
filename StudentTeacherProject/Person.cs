@@ -14,7 +14,7 @@ namespace StudentTeacherProject
 
         public virtual void ShowName()
         {
-            Console.WriteLine();
+            Console.WriteLine("Name=" + Name + "Family=" + Family);
         }
     }
 }
