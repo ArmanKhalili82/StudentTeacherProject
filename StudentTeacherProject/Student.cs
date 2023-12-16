@@ -10,9 +10,11 @@ namespace StudentTeacherProject
     {
         public int Score { get; set; }
 
-        public override void ShowName(string name)
+        public override void ShowName()
         {
-            base.ShowName(name);
+            Name = "Arman";
+            Family = "Khalili";
+            Console.WriteLine(Name + Family);
         }
     }
 }

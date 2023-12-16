@@ -10,9 +10,9 @@ namespace StudentTeacherProject
     {
         public string Course { get; set; }
 
-        public override void ShowName(string name)
+        public override void ShowName()
         {
-            base.ShowName(name);
+            base.ShowName();
         }
     }
 }

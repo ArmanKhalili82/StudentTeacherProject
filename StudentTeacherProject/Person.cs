@@ -12,9 +12,9 @@ namespace StudentTeacherProject
         public string Name { get; set; }
         public string Family { get; set; }
 
-        public virtual void ShowName(string name)
+        public virtual void ShowName()
         {
-            Console.WriteLine(name);
+            Console.WriteLine();
         }
     }
 }
