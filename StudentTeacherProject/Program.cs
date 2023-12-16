@@ -10,12 +10,16 @@ while (true)
     if (command == "Student")
     {
         Console.WriteLine("Enter Your Student:");
-        var student = Console.ReadLine();
+        string student = Console.ReadLine();
         Console.WriteLine("Enter Your Family");
         var family = Console.ReadLine();
         Console.WriteLine("Enter Your Score");
         var studentscore = int.Parse(Console.ReadLine());
-        studentadd.Add(student);
+        var st = studentadd.Where(x => x.Name == student).FirstOrDefault();
+        if (st == null)
+        {
+            studentadd.Add(st);
+        }
     }
 }
 
