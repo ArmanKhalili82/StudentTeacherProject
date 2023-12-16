@@ -13,6 +13,8 @@ while (true)
         var family = Console.ReadLine();
         Console.WriteLine("Enter Your Score");
         var studentscore = int.Parse(Console.ReadLine()); 
+        List<Student> studentadd = new List<Student>();
+        var st = studentadd.Where(s => s.Name == student).FirstOrDefault();
     }
 }
 
